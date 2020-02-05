@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block main %}
+<div id="top">
+<br>
+<img src="{{ url_for('static', filename='Me.png')}}"/>
+<h3>Monique Campbell </h3>
+<h5>@mcampbell</h5>
+<h5>Kingston, Jamaica</h5>
+<h5>{{date}}</h5>
+<br>
+</div> 
+<div id="bottom">
+<br>
+<p>I am a student at the University of the West Indies who is doing INFO3180- Web Development II. I have 3 cats: Hamster, Pedestrian and Spice which brighten up my day. My favourite colour is blue and I like cookie and cream ice-cream. I don't enjoy the taste of chocolate nor pizza (I am being serious).
+</p>
+<div id="num">
+<p><strong>7 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 100 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;250</strong><br>Posts &emsp;&emsp;&emsp;&emsp;&emsp;Following &emsp;&emsp;&emsp;&emsp;Followers</p>
+<button type="button">Follow</button>
+<br>
+<br>
+</div>
+</div>
+{% endblock %}
