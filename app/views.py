@@ -20,7 +20,7 @@ def home():
     """Render website's home page."""
     return render_template('home.html')
 
-@app.route('/profile/')
+@app.route('/profile')
 def profile():
     date_joined=datetime.date(2019, 2, 4)
     return render_template('profile.html' ,date=format_date_joined(date_joined))
