@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% block main %}
-<div id="top">
+
 <br>
+<div id="every">
+<div id="top">
 <img src="{{ url_for('static', filename='Me.png')}}"/>
 <link rel="stylesheet" type=text/css href="{{url_for('static', filename= "app.css")}}" >
 <h3>Monique Campbell </h3>
@@ -11,7 +13,6 @@
 <br>
 </div> 
 <div id="bottom">
-<br>
 <p>I am a student at the University of the West Indies who is doing INFO3180- Web Development II. I have 3 cats: Hamster, Pedestrian and Spice which brighten up my day. My favourite colour is blue and I like cookie and cream ice-cream. I don't enjoy the taste of chocolate nor pizza (I am being serious).
 </p>
 <div id="num">
@@ -19,6 +20,7 @@
 <button type="button">Follow</button>
 <br>
 <br>
+</div>
 </div>
 </div>
 {% endblock %}
